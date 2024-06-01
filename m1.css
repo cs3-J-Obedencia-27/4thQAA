@@ -1,0 +1,39 @@
+. {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;S
+    align-items: center;
+    background-color: rgb(50, 82, 52);
+}
+
+.container{
+    position: relative;
+    width: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.container .mycard{
+    position: relative;
+    max-width: 300px;
+    height: 420px;
+    background: wheat;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 3px 50px rgba(0, 0, 0, 0.5);
+    transition: 0.4s ease-in-out;
+}
+.container .mycard .cimg {
+    position: relative;
+    width: 260px;
+    height: 260px;
+}
+.container .mycard .cimg img{
+    max-width: 100%;
+    border-radius: 6px;
+}
